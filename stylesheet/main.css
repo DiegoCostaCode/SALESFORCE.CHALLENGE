@@ -9,6 +9,55 @@ body
     font: #0F2A5D;
 }
 
+main
+{
+    margin-top: 50px;
+}
+
+main > article > .teste
+{
+
+    align-items: center;
+}
+
+main > article
+{
+    display: flex;
+    align-items: center;
+}
+
+main > article > div > .text1
+{
+    font-size: 5rem;
+    width: 150px;
+    font-style: bold;
+    color: #179DD8;
+    margin: 0px 150px 0px 300px;
+}
+
+main > article > div > .text2
+{
+    font-size: 5rem;
+    font-style: bold;
+    color: #0F2A5D;
+    margin: 1px 150px 0px 300px;
+    line-height: 61px;
+}
+
+main > article > div > img
+{
+    width: 650px;
+}
+
+
+main > article > div > p
+{
+    font-size: 1.2rem;
+    color: #0F2A5D;
+    margin: 10px 150px 0px 300px;
+}
+
+
 
 
 
