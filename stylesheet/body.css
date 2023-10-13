@@ -1,0 +1,96 @@
+/* SUCESSO 360 e IMAGEM */
+
+main
+{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+}
+
+main > nav 
+{
+    align-items: center;
+}
+
+main > nav
+{
+    align-items: center;
+}
+
+main > nav > div > .text1
+{
+    font-size: 5rem;
+    width: 150px;
+    font-style: bold;
+    color: #179DD8;
+    margin: 0px 150px 0px 300px;
+}
+
+main > nav > div > .text2
+{
+    font-size: 5rem;
+    font-style: bold;
+    color: #0F2A5D;
+    margin: 1px 150px 0px 300px;
+    line-height: 61px;
+}
+
+
+main > nav > div > p
+{
+    font-size: 1.2rem;
+    color: #0F2A5D;
+    margin: 10px 150px 0px 300px;
+}
+
+/* BOTÃO DE TESTE GRATIS */
+
+main > nav > section
+{
+    display: flex;
+}
+
+main > nav > section > .testegratis
+{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 10px 50px 0px 300px;
+    padding: 10px 16px 10px 16px;
+    width: 150px;
+    background-color: #3A8B54;
+    border-radius: 5px;
+}
+
+main > nav > section > .testegratis > a
+{
+    color: white;
+    text-decoration: none;
+}
+
+main > nav > section > .saibamais
+{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 10px 50px 0px 40px;
+    padding: 10px 16px 10px 16px;
+    width: 150px;
+    border-style: solid;
+    border-color: #41B9E8;
+    border-radius: 5px;
+}
+
+main > nav > section > .saibamais > a
+{
+    color: #41B9E8;
+    text-decoration: none;
+}
+
+/* IMAGEM SALESFORCE */
+
+
+main > aside > img
+{
+    width: 700px;
+}
