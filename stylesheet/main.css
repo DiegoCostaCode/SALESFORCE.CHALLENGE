@@ -1,0 +1,14 @@
+@import url(font.css);
+@import url(header.css);
+
+body
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 62,5%;
+    background-color: white;
+    font: #0F2A5D;
+}
+
+
+
+

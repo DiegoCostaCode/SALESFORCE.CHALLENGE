@@ -1,0 +1,71 @@
+@import url(main.css);
+
+.header
+{
+    display: flex;
+    position:fixed;
+    top:0;
+    left:0;
+    padding: 16px 0px;
+    margin: 0px 24px 0px 24px;
+
+}
+
+.header .left-links > ul .acess
+{
+    flex: 5;
+}
+
+.header > .logo > a > img
+{
+    width: 68px;
+    height: 48.03;
+}
+
+
+.header > .left-links > ul
+{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 19x 0px 0px;
+    list-style-type: none;
+    font-weight: bold;
+}
+
+
+.header > .left-links > ul > li
+{
+    padding: 0px 16px 0px 16px ;
+}
+
+.header > .left-links > ul > li > a
+{
+    text-decoration: none;
+    color: #0F2A5D;
+}
+
+
+.header > .right-links > ul
+{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 19x 0px 0px;
+    padding: 0px 0px 0px 0px;
+    list-style-type: none;
+}
+
+.header > .right-links > ul > li
+{
+    padding: 0px 16px 0px 16px ;
+}
+
+
+.header > .right-links > ul > li > a
+{
+    text-decoration: none;
+    color: #0F2A5D;
+    font-weight: bold;
+}
+
+
+
