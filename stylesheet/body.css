@@ -89,3 +89,42 @@ main > aside > img
 {
     width: 700px;
 }
+
+/* O QUE IREMOS ADICIONAR AINDA */
+
+.plus-planes
+{
+    
+}
+
+.plus-planes > h1
+{
+    font-size: 2rem;
+    color: #0F2A5D;
+    text-align: center;
+
+}
+
+.plus-planes > p
+{
+    font-size: 1.2rem;
+    text-align: justify;
+    margin: 0px 50px 0px 50px;
+    color: #0F2A5D;
+}
+
+.plus-planes > ul > li
+{
+    font-size: 1.2rem;
+    list-style: none;
+    text-align: justify;
+    color: #0F2A5D;
+    padding-top: 5px;
+}
+
+.plus-planes > ul > img
+{
+    width: 700px;
+    align-items: center;
+}
+
