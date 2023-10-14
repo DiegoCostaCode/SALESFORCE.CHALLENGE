@@ -12,3 +12,173 @@ body
     min-height: 100vh;
     margin: 0;
 }
+
+@media screen and (max-width: 800px)
+{
+    .header
+    {
+        flex-direction: column;
+    }
+
+    .header > .void
+    {
+        width: 0px
+    }
+
+    .header > .left-links > ul
+    {
+        flex-direction: column;
+    }
+
+    .header > .right-links > ul
+    {
+        flex-direction: column;
+    }
+
+    main > nav > div > .text1
+    {
+        font-size: 3rem;
+        margin: 0px 150px 0px 50px;
+    }
+
+    main > nav > div > .text2
+    {
+        font-size: 3rem;
+        margin: 0px 150px 0px 50px;
+    }
+
+    main > nav > div > p
+    {
+        font-size: 1.2rem;
+        text-align: justify;
+        margin: 0px 150px 0px 50px;
+    }
+
+    main > nav > section
+    {
+        flex-direction: column;
+    }
+
+    main > nav > section > .testegratis
+    {
+        margin: 10px 50px 0px 50px;
+    }
+
+    main > nav > section > .saibamais
+    {
+        margin: 10px 50px 0px 50px;
+    }
+
+    main 
+    {
+        flex-direction: column;
+    }
+
+    main > aside
+    {
+        margin-top: 10px;
+    }
+
+    main > aside > img
+    {
+        width: 400px;
+    }
+
+
+}
+
+@media screen and (max-width: 900px)
+{
+    .header
+    {
+        flex-direction: column;
+    }
+
+    .header > .void
+    {
+        width: 0px
+    }
+
+    .header > .left-links > ul
+    {
+        flex-direction: column;
+    }
+
+    .header > .right-links > ul
+    {
+        flex-direction: column;
+    }
+
+    main > nav > div > .text1
+    {
+        font-size: 3rem;
+        margin: 0px 150px 0px 50px;
+    }
+
+    main > nav > div > .text2
+    {
+        font-size: 3rem;
+        margin: 0px 150px 0px 50px;
+    }
+
+    main > nav > div > p
+    {
+        font-size: 1.2rem;
+        text-align: justify;
+        margin: 0px 150px 0px 50px;
+    }
+
+    main > nav > section
+    {
+        flex-direction: column;
+    }
+
+    main > nav > section > .testegratis
+    {
+        margin: 10px 50px 0px 50px;
+    }
+
+    main > nav > section > .saibamais
+    {
+        margin: 10px 50px 0px 50px;
+    }
+
+    main 
+    {
+        flex-direction: column;
+    }
+
+    main > aside
+    {
+        margin-top: 10px;
+    }
+
+    main > aside > img
+    {
+        width: 400px;
+    }
+
+
+}
+
+@media screen and (max-width: 1000px)
+{
+    main 
+    {
+        flex-direction: column;
+    }
+
+    main > aside
+    {
+        margin-top: 10px;
+    }
+
+    main > aside > img
+    {
+        width: 500px;
+    }
+
+}
+    
+    
+    
