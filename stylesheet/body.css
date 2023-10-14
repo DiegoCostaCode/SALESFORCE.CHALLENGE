@@ -92,10 +92,6 @@ main > aside > img
 
 /* O QUE IREMOS ADICIONAR AINDA */
 
-.plus-planes
-{
-    
-}
 
 .plus-planes > h1
 {
@@ -105,14 +101,6 @@ main > aside > img
 
 }
 
-.plus-planes > p
-{
-    font-size: 1.2rem;
-    text-align: justify;
-    margin: 0px 50px 0px 50px;
-    color: #0F2A5D;
-}
-
 .plus-planes > ul > li
 {
     font-size: 1.2rem;
@@ -120,11 +108,71 @@ main > aside > img
     text-align: justify;
     color: #0F2A5D;
     padding-top: 5px;
+    width: 1300px;
 }
 
 .plus-planes > ul > img
 {
     width: 700px;
     align-items: center;
+}
+
+/*EXEMPLO 1*/
+
+.plus-planes > ul > .exemplo-um
+{
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.plus-planes > ul > .exemplo-um > img
+{
+    border-radius: 8%;
+    padding: 10px 10px 10px 10px;
+    width: 500px;
+}
+
+.plus-planes > ul > .exemplo-um > p
+{
+    color: #0F2A5D;
+    font-size: 1.2rem;
+
+}
+
+/*EXEMPLO 2*/
+
+.plus-planes > ul > .exemplo-dois
+{
+    display: flex;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.plus-planes > ul > .exemplo-dois > img
+{
+    padding: 10px 10px 10px 10px;
+    width: 500px;
+}
+
+.plus-planes > ul > .exemplo-dois > p
+{
+    color: #0F2A5D;
+    font-size: 1.2rem;
+
+}
+
+/*EXEMPLO 3*/
+
+.plus-planes > ul > .exemplo-tres
+{
+    padding-bottom: 10px;
+}
+
+
+.plus-planes > ul > .exemplo-dois > p
+{
+    color: #0F2A5D;
+    font-size: 1.2rem;
 }
 
