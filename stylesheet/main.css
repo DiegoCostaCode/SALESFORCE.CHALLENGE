@@ -1,6 +1,7 @@
 @import url(font.css);
 @import url(header.css);
 @import url(body.css);
+@import url(footer.css);
 
 body
 {
@@ -8,9 +9,6 @@ body
     font-size: 62,5%;
     background-color: white;
     font: #0F2A5D;
+    min-height: 100vh;
+    margin: 0;
 }
-
-
-
-
-
