@@ -113,7 +113,7 @@ main > aside > img
 
 .plus-planes > ul > img
 {
-    width: 700px;
+    width: 600px;
     align-items: center;
 }
 
@@ -128,9 +128,8 @@ main > aside > img
 
 .plus-planes > ul > .exemplo-um > img
 {
-    border-radius: 8%;
     padding: 10px 10px 10px 10px;
-    width: 500px;
+    width: 600px;
 }
 
 .plus-planes > ul > .exemplo-um > p
@@ -140,27 +139,6 @@ main > aside > img
 
 }
 
-/*EXEMPLO 2*/
-
-.plus-planes > ul > .exemplo-dois
-{
-    display: flex;
-    padding-bottom: 50px;
-    text-align: center;
-}
-
-.plus-planes > ul > .exemplo-dois > img
-{
-    padding: 10px 10px 10px 10px;
-    width: 500px;
-}
-
-.plus-planes > ul > .exemplo-dois > p
-{
-    color: #0F2A5D;
-    font-size: 1.2rem;
-
-}
 
 /*EXEMPLO 3*/
 

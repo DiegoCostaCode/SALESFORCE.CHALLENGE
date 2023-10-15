@@ -166,36 +166,3 @@ body
 
 /*//////////////////////////HEADER - IMAGEM 1////////////////////////////////////*/
 
-@media screen and (max-width: 1000px)
-{
-    main 
-    {
-        flex-direction: column;
-    }
-
-    main > aside
-    {
-        margin-top: 10px;
-    }
-
-    main > aside > img
-    {
-        width: 500px;
-    }
-
-}
-
-
-/*//////////////////////////CONTENT REPONSIUVE////////////////////////////////////*/
-
-@media screen and (max-width: 800px)
-{
-    .plus-planes > ul
-    {
-        width:auto;
-    }
-
-
-}
-    
-    
