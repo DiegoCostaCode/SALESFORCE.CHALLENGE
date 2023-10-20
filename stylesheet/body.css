@@ -1,107 +1,113 @@
-/* SUCESSO 360 e IMAGEM */
+/* //////////////////SUCESSO 360 e IMAGEM //////////////////*/
 
 main
 {
     display: flex;
-    margin-top: 50px;
     align-items: center;
+    justify-content: center;
+    height: 600px;
 }
 
-main > nav
+main > section
 {
-    align-items: center;
+    justify-content: center;
 }
 
-main > nav > div > .text1
+main > section > div > .text1
 {
     font-size: 5rem;
-    width: 150px;
     font-style: bold;
     color: #179DD8;
-    margin: 0px 150px 0px 300px;
+    line-height: 70px;
 }
 
-main > nav > div > .text2
+main > section > div > .text2
 {
     font-size: 5rem;
     font-style: bold;
     color: #0F2A5D;
-    margin: 1px 150px 0px 300px;
-    line-height: 61px;
+    line-height: 70px;
 }
 
 
-main > nav > div > p
+main > section > div > p
 {
     font-size: 1.2rem;
     color: #0F2A5D;
-    margin: 10px 150px 0px 300px;
 }
 
-/* BOTÃO DE TESTE GRATIS */
+/* //////////////////BOTÃO DE TESTE GRATIS////////////////// */
 
-main > nav > section
+main > section
+{
+
+    display: flex;
+    flex: 0.8;
+    flex-direction: column;
+    align-items: center;
+}
+main > section > section
 {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    
 }
 
-main > nav > section > .testegratis
+main > section > section > .testegratis
 {
     text-align: center;
-    font-size: 1rem;
     font-weight: bold;
-    margin: 10px 50px 0px 300px;
+    background-color: #3A8B54;
+    font-size: 1rem;
     padding: 10px 16px 10px 16px;
     width: 150px;
-    background-color: #3A8B54;
     border-radius: 5px;
-}
-
-main > nav > section > .testegratis > a
-{
     color: white;
     text-decoration: none;
 }
 
-main > nav > section > .saibamais
+main > section > section > .saibamais
 {
     text-align: center;
-    font-size: 1rem;
     font-weight: bold;
-    margin: 10px 50px 0px 40px;
-    padding: 10px 16px 10px 16px;
+    font-size: 1rem;
+    width: 150px;
+    padding: 8px 16px 8px 16px;
     width: 150px;
     border-style: solid;
     border-color: #41B9E8;
     border-radius: 5px;
-}
-
-main > nav > section > .saibamais > a
-{
     color: #41B9E8;
     text-decoration: none;
 }
 
-/* IMAGEM SALESFORCE */
 
+/* //////////////////IMAGEM SALESFORCE////////////////// */
 
-main > aside > img
+main > div > img
 {
     width: 700px;
+    align-items: center;
 }
 
-/* O QUE IREMOS ADICIONAR AINDA */
+/* //////////////////O QUE IREMOS ADICIONAR AINDA //////////////////*/
 
-
-.plus-planes > h1
+.future-planes > h1
 {
-    font-size: 2rem;
+    font-size: 3rem;
     color: #0F2A5D;
     text-align: center;
 
 }
 
-.plus-planes > ul > li
+.future-planes > ul
+{
+    text-align: justify;
+    padding: 50px 50px 50px 50px;
+}
+.future-planes > ul > li
 {
     font-size: 1.2rem;
     list-style: none;
@@ -111,46 +117,17 @@ main > aside > img
     width: 1300px;
 }
 
-.plus-planes > ul > img
+.future-planes > ul > img
 {
     width: 600px;
     align-items: center;
+    padding-bottom: 5px;
 }
 
-/*EXEMPLO 1*/
-
-.plus-planes > ul > .exemplo-um
+.future-planes > ul > li > a
 {
-    display: flex;
-    margin-bottom: 10px;
-    align-items: center;
-}
-
-.plus-planes > ul > .exemplo-um > img
-{
-    padding: 10px 10px 10px 10px;
-    width: 600px;
-}
-
-.plus-planes > ul > .exemplo-um > p
-{
+    font-weight: bold;
     color: #0F2A5D;
-    font-size: 1.2rem;
-
 }
 
-
-/*EXEMPLO 3*/
-
-.plus-planes > ul > .exemplo-tres
-{
-    padding-bottom: 10px;
-}
-
-
-.plus-planes > ul > .exemplo-dois > p
-{
-    color: #0F2A5D;
-    font-size: 1.2rem;
-}
 

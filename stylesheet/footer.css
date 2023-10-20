@@ -3,23 +3,31 @@
 .main-footer
 {
     display: flex;
-    align-items: left;
     background-color: #0F2A5D;
+    background-size: cover;
+    padding: 20px;
 }
 
-.main-footer > .primeira-coluna
+.main-footer > .footer-logo
 {
-    margin-left: 5px;
+    display: flex;
+    flex: 0.2;
 }
 
-.main-footer > .primeira-coluna > ul > a > img
+.main-footer > .footer-logo
 {
-    width: 90px;
-    height: 48.03;
+    align-items: center;
+    justify-content: center;
 }
 
 
-.main-footer > .primeira-coluna > ul > h3
+.main-footer > .footer-logo > ul > a > img
+{
+    width: 130px;
+}
+
+
+.main-footer > .footer-logo > ul > .title
 {
     list-style: none;
     margin-bottom: 10px;
@@ -37,6 +45,7 @@
     text-decoration: none;
     color: white;
 }
+
 
 
 .main-footer > .segunda-coluna > ul > h3

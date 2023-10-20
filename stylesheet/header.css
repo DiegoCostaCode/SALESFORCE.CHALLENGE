@@ -1,34 +1,36 @@
 
 .header
 {
-    display:flex;
-    top:0;
-    left:0;
+    display: flex;
     padding: 16px 0px;
-    margin: 0px 24px 0px 24px;
+    justify-content: center;
 }
 
-.header > .void
+.header > .logo > a 
 {
-   width: 1100px;
+    display: flex;
 }
 
 .header > .logo > a > img
 {
+    flex: 1;
     width: 68px;
     height: 48.03;
+}
+
+.header > .left-links
+{
+    display: flex;
+    flex: 0.9;
+    align-items: center;
 }
 
 .header > .left-links > ul
 {
     display: flex;
-    flex-direction: row;
-    margin: 0px 19x 0px 0px;
-    padding: 0px 0px 0px 0px ;
     list-style-type: none;
     font-weight: bold;
 }
-
 
 .header > .left-links > ul > li
 {
@@ -39,6 +41,13 @@
 {
     text-decoration: none;
     color: #0F2A5D;
+    justify-content: space-between;
+}
+
+.header > .right-links
+{
+    display: flex;
+    align-items: center;
 }
 
 .header > .right-links > ul
@@ -46,7 +55,6 @@
     display: flex;
     flex-direction: row;
     margin: 0px 19x 0px 0px;
-    padding: 0px 0px 0px 0px;
     list-style-type: none;
 }
 
@@ -60,4 +68,16 @@
     text-decoration: none;
     color: #0F2A5D;
     font-weight: bold;
+}
+
+.header > .right-links > ul > li > .login
+{
+    font-weight: bold;
+    background-color: #3A8B54;
+    font-size: 1rem;
+    padding: 10px 16px 10px 16px;
+    width: 150px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
 }
