@@ -411,3 +411,57 @@ main > div > img
     padding: 0px 0px 15px 0px;
 }
 
+/* //////////////////trailhead ////////////////// */
+
+.body-trailhead
+{
+    background-color:white;
+    height: 100vh;
+}
+
+
+.body-trailhead > main
+{
+    display: flex;
+    justify-content:center;
+    border-radius: 50px;
+    height: auto;
+
+}
+
+.body-trailhead > main > div
+{
+    flex: 0.6;
+    color:#0F2A5D;
+    justify-content: center;
+    margin: 20px 0px 0px 0px;
+}
+
+.body-trailhead > main > div > .trailhead-layout
+{
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px ;
+    width: 700px;
+    margin: 30px 0px 30px 0px;
+}
+
+
+.body-trailhead > main > div > p
+{
+    font-size: 1.2rem;
+    padding: 0px 0px 15px 0px;
+}
+
+.body-trailhead > main > div > ul
+{
+    font-size: 1.2rem;
+    margin: 0px 0px 15px 0px;
+}
+
+.cursos-layout
+{
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px ;
+    width: 700px;
+    margin: 30px 0px 30px 0px;
+}

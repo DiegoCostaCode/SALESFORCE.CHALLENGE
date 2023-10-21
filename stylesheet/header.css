@@ -29,7 +29,6 @@
 {
     display: flex;
     list-style-type: none;
-    font-weight: bold;
 }
 
 .header > .left-links > ul > li
@@ -41,7 +40,7 @@
 {
     text-decoration: none;
     color: #0F2A5D;
-    justify-content: space-between;
+    font-weight: bold;
 }
 
 .header > .right-links
@@ -208,4 +207,86 @@ body > .header-integrantes > .title-integrantes > h1
 .body-acessibilidade > .header-acessibilidae > .logo-salesforce > a > img
 {
     width: 100px;
+}
+
+/*////////////////header - trailhead/////////////*/
+
+.body-trailhead > .header-trailhead
+{
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
+
+.body-trailhead > .header-trailhead > .logo-salesforce
+{
+    flex: 0.1;
+    display: flex;
+    justify-content: center;
+}
+
+.body-trailhead > .header-trailhead > .logo-salesforce > a > img
+{
+    width: 100px;
+}
+
+.body-trailhead > .header-trailhead > .left-links
+{
+    display: flex;
+    flex: 0.9;
+    align-items: center;
+}
+
+.body-trailhead > .header-trailhead > .left-links > ul
+{
+    display: flex;
+    list-style: none;
+}
+
+.body-trailhead > .header-trailhead > .left-links > ul > li
+{
+    padding: 0px 16px 0px 16px ;
+}
+
+.body-trailhead > .header-trailhead > .left-links > ul > li > a
+{
+    text-decoration: none;
+    color: #0F2A5D;
+    font-weight: bold;
+}
+
+
+.body-trailhead > .header-trailhead > .right-links
+{
+    display: flex;
+}
+
+.body-trailhead > .header-trailhead > .right-links > ul
+{
+    display: flex;
+    list-style: none;
+}
+
+.body-trailhead > .header-trailhead > .right-links > ul > li
+{
+    padding: 0px 16px 0px 16px ;
+}
+
+.body-trailhead > .header-trailhead > .right-links > ul > li > a
+{
+    text-decoration: none;
+    color: #0F2A5D;
+    font-weight: bold;
+}
+
+.body-trailhead > .header-trailhead > .right-links > ul > li > .login
+{
+    font-weight: bold;
+    background-color: #3A8B54;
+    font-size: 1rem;
+    padding: 10px 16px 10px 16px;
+    width: 150px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
 }
