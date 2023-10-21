@@ -366,3 +366,66 @@ main > div > img
     color: white;
     text-decoration: none;
 }
+
+/* //////////////////ACESSIBILIDADE////////////////// */
+
+.body-acessibilidade
+{
+    background-color:white;
+    height: 100vh;
+}
+
+.body-acessibilidade > .header-acessibilidae
+{
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
+
+.body-acessibilidade > .header-acessibilidae > .logo-salesforce
+{
+    flex: 0.1;
+    display: flex;
+    justify-content: center;
+}
+
+.body-acessibilidade > .header-acessibilidae > .logo-salesforce > a > img
+{
+    width: 100px;
+}
+
+.body-acessibilidade > main
+{
+    display: flex;
+    justify-content:center;
+    height: 1000px;
+    border-radius: 50px;
+
+}
+
+.body-acessibilidade > main > div
+{
+    flex: 0.6;
+    color:#0F2A5D;
+    justify-content: center;
+}
+
+.body-acessibilidade > main > div > img
+{
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px ;
+}
+
+
+.body-acessibilidade > main > div > p
+{
+    font-size: 1.2rem;
+    padding: 0px 0px 15px 0px;
+}
+
+.body-acessibilidade > main > div > ul
+{
+    font-size: 1.2rem;
+    padding: 0px 0px 15px 0px;
+}
+
