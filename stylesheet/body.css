@@ -138,57 +138,231 @@ main > div > img
     align-items: center;
     justify-content: center;
     background-color:white;
-    padding: 500px 500px 500px 500px;
-}
-.body-login > section
-{
-    flex: 0.5;
-    display: flex;
-    flex-direction: column;
+    height: 100vh;
 }
 
-.body-login > section > div
+.body-login > .main-login
+{
+    flex-direction: column;
+    flex: 0.5;
+    height: 850px;
+}
+
+.body-login > .main-login > .logo-salesforce
 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color: #0F2A5D;
 }
 
-.body-login > section > .logo-salesforce > h2
+.body-login > .main-login > .logo-salesforce > a > img
+{
+    width: 100px;
+}
+
+.body-login > .main-login > .logo-salesforce > h2
 {
     font-size: 2rem;
-    font-weight: bold;
-    color:#0F2A5D;
 }
 
-.body-login > section > div > h1
+.body-login > .main-login > .logo-salesforce > p
 {
-    font-size: 2rem;
-    font-weight: bold;
-    color:#0F2A5D;
+    font-size: 1.4rem;
 }
 
-.body-login > section > div > p
+
+.body-login > .main-login > div
 {
-    font-size: 1.5rem;
-    color:#0F2A5D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #0F2A5D;
 }
 
-.body-login > section > div > ul
+.body-login > .main-login > div > h1
 {
-    font-size: 1.5rem;
-    color:#0F2A5D;
+    font-size: 3rem;
+    color: #3A8B54;
+}
+.body-login > .main-login > div > p
+{
+    width: 800px;
+    text-align: justify;
+    font-size: 1.4rem;
 }
 
+.body-login > .main-login > div
+{
+    flex:2;
+}
 
-.body-login > section > img
+.body-login > .main-login > div > img
 {
     width: 700px;
 }
 
-.body-login > section > .logo-salesforce > a > img
+
+.body-login > aside
 {
+    display: flex;
+    flex: 0.4;
+    align-items: center;
+    height: 800px;
+}
+
+.body-login > aside > div
+{
+    padding: 50px 10px 50px 10px;
+    text-align: center;
+    color:#0F2A5D;
+    background-color: #D3D3D3;
+    border-radius: 50px;
+    height: 600px;
+
+}
+
+.body-login > aside > div > h1
+{
+    padding: 5px 0px 5px 0px;
+    font-size: 2rem;
+    color:#0F2A5D;
+}
+
+.body-login > aside > div > p
+{
+    padding: 5px 0px 20px 0px;
+    font-size: 2rem;
+}
+
+.body-login > aside > div > ul
+{
+    list-style: none;
+    font-size: 1.4rem;
+    padding: 20px 0px 20px 0px;
+}
+
+.body-login > aside > div > a
+{
+    font-weight: bold;
+    background-color: #3A8B54;
+    font-size: 1.4rem;
+    padding: 10px 16px 10px 16px;
     width: 150px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+/*//////////////////suporte/////////////////////*/
+
+.body-suporte
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+    height: 100vh;
+}
+
+.body-suporte > .main-suporte
+{
+    flex-direction: column;
+    flex: 0.5;
+    height: 850px;
+}
+
+.body-suporte > .main-suporte > .logo-salesforce
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #0F2A5D;
+}
+
+.body-suporte > .main-suporte > .logo-salesforce > a > img
+{
+    width: 100px;
+}
+
+.body-suporte > .main-suporte > .logo-salesforce > h2
+{
+    font-size: 2rem;
+    color: #179DD8;
+    padding: 0px 0px 10px 0px;
+}
+
+.body-suporte > .main-suporte > .logo-salesforce > p
+{
+    font-size: 1.4rem;
 }
 
 
+.body-suporte > .main-suporte > div > p
+{
+    width: 800px;
+    text-align: justify;
+    font-size: 1.4rem;
+}
+
+.body-suporte > .main-suporte > div
+{
+    flex:1;
+}
+
+.body-suporte > .main-suporte > div > img
+{
+    width: 400px;
+}
+
+
+.body-suporte > aside
+{
+    display: flex;
+    flex: 0.4;
+    align-items: center;
+    height: 800px;
+}
+
+.body-suporte > aside > div
+{
+    padding: 50px 10px 50px 10px;
+    text-align: center;
+    color:#0F2A5D;
+    background-color: #D3D3D3;
+    border-radius: 50px;
+    height: 650px;
+
+}
+
+.body-suporte > aside > div > h1
+{
+    padding: 5px 0px 5px 0px;
+    font-size: 2rem;
+    color:#0F2A5D;
+}
+
+.body-suporte > aside > div > p
+{
+    padding: 5px 0px 20px 0px;
+    font-size: 2rem;
+}
+
+.body-suporte > aside > div > ul
+{
+    list-style: none;
+    font-size: 1.4rem;
+    padding: 20px 0px 20px 0px;
+}
+
+.body-suporte > aside > div > a
+{
+    font-weight: bold;
+    background-color: #3A8B54;
+    font-size: 1.4rem;
+    padding: 10px 16px 10px 16px;
+    width: 150px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
