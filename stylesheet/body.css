@@ -131,3 +131,64 @@ main > div > img
 }
 
 
+/* ////////////////// LOGIN  //////////////////*/
+.body-login
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+    padding: 500px 500px 500px 500px;
+}
+.body-login > section
+{
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+}
+
+.body-login > section > div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.body-login > section > .logo-salesforce > h2
+{
+    font-size: 2rem;
+    font-weight: bold;
+    color:#0F2A5D;
+}
+
+.body-login > section > div > h1
+{
+    font-size: 2rem;
+    font-weight: bold;
+    color:#0F2A5D;
+}
+
+.body-login > section > div > p
+{
+    font-size: 1.5rem;
+    color:#0F2A5D;
+}
+
+.body-login > section > div > ul
+{
+    font-size: 1.5rem;
+    color:#0F2A5D;
+}
+
+
+.body-login > section > img
+{
+    width: 700px;
+}
+
+.body-login > section > .logo-salesforce > a > img
+{
+    width: 150px;
+}
+
+
