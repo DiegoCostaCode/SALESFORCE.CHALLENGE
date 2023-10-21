@@ -81,3 +81,107 @@
     color: white;
     text-decoration: none;
 }
+
+/* //////////////////PÁGINA INTEGRANTES//////////////////*/
+
+/* //////////////////HEADER//////////////////*/
+
+body > .header-integrantes
+{
+    display: flex;
+    background-color: #41B9E8;
+    background-size: cover;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+body > .header-integrantes > .logo-salesforce
+{
+    flex: 15.1;
+    display: flex;
+    justify-content: center ;
+
+}
+
+body > .header-integrantes > .logo-salesforce > a > img
+{
+    width: 250px;
+}
+
+body > .header-integrantes > .title-integrantes
+{
+    flex: 20;
+
+}
+
+body > .header-integrantes > .title-integrantes > h1
+{
+    font-size: 5rem;
+    color: white;
+}
+
+/* //////////////////MAIN//////////////////*/
+
+.main-integrantes
+{
+    align-items: center;
+    background-color: white;
+    background-size: cover;
+}
+
+.main-integrantes > .diego-costa
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-integrantes > .diego-costa > h1
+{
+    font-size: 3rem;
+    color:#0F2A5D;
+}
+
+.main-integrantes > .diego-costa > img
+{
+   width: 350px;
+   border-radius: 1000px;
+}
+
+.main-integrantes > .marcelo-mendes
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-integrantes > .marcelo-mendes > img
+{
+   width: 350px;
+   border-radius: 1000px;
+}
+
+.main-integrantes > .marcelo-mendes > h1
+{
+    font-size: 3rem;
+    color:#0F2A5D;
+}
+
+.main-integrantes > .lucas-minozzo
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-integrantes > .lucas-minozzo > img
+{
+   width: 350px;
+   border-radius: 1000px;
+}
+
+.main-integrantes > .lucas-minozzo > h1
+{
+    font-size: 3rem;
+    color:#0F2A5D;
+}
