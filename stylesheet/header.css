@@ -2,8 +2,9 @@
 .header
 {
     display: flex;
-    padding: 16px 0px;
     justify-content: center;
+    align-items: center;
+    height: 100px;
 }
 
 .header > .logo > a 
@@ -15,7 +16,6 @@
 {
     flex: 1;
     width: 68px;
-    height: 48.03;
 }
 
 .header > .left-links
@@ -184,4 +184,28 @@ body > .header-integrantes > .title-integrantes > h1
 {
     font-size: 3rem;
     color:#0F2A5D;
+}
+
+
+
+
+/*////////////////header - acessibilidade/////////////*/
+
+.body-acessibilidade > .header-acessibilidae
+{
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
+
+.body-acessibilidade > .header-acessibilidae > .logo-salesforce
+{
+    flex: 0.1;
+    display: flex;
+    justify-content: center;
+}
+
+.body-acessibilidade > .header-acessibilidae > .logo-salesforce > a > img
+{
+    width: 100px;
 }
