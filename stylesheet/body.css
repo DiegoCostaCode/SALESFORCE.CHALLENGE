@@ -331,7 +331,7 @@ main > div > img
     color:#0F2A5D;
     background-color: #D3D3D3;
     border-radius: 50px;
-    height: 650px;
+    height: 700px;
 
 }
 
@@ -465,3 +465,20 @@ main > div > img
     width: 700px;
     margin: 30px 0px 30px 0px;
 }
+
+/* //////////////////MAPA////////////////// */
+.mapa
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mapa > div > img
+{
+    width: 500px;
+}
+
+
+
+

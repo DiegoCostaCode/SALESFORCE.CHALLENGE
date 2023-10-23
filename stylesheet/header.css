@@ -290,3 +290,42 @@ body > .header-integrantes > .title-integrantes > h1
     color: white;
     text-decoration: none;
 }
+
+/*//////////////////asdasdasd//////////////////*/
+
+.header-mapa
+{
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
+
+ .header-mapa > .logo-salesforce
+{
+    flex: 0.1;
+    display: flex;
+    justify-content: center;
+}
+
+body  > .header-mapa > .logo-salesforce > a > img
+{
+    width: 100px;
+}
+
+.mapa 
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.mapa > h1
+{
+    color:#0F2A5D;
+}
+
+.mapa > img
+{
+    width: 600px;
+}
+
+

@@ -34,6 +34,10 @@
     color: white;
 }
 
+.main-footer > .segunda-coluna
+{
+    flex: 0.4;
+}
 .main-footer > .segunda-coluna > ul > li
 {
     list-style: none;
@@ -44,6 +48,12 @@
 {
     text-decoration: none;
     color: white;
+}
+
+.main-footer > .nomes
+{
+    color: white;
+    font-size: 0.5rem;
 }
 
 
