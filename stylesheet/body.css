@@ -479,6 +479,56 @@ main > div > img
     width: 500px;
 }
 
+/* //////////////////media query////////////////// */
+
+@media screen and (max-width: 931px)
+{
+
+    body > main
+    {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .future-planes > ul > li
+    {
+        width: auto;
+    }
+    ;
+}
+
+@media screen and (max-width: 1000px)
+{
+
+    body > main
+    {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .future-planes > ul > li
+    {
+        width: auto;
+    }
+}
+    
+@media screen and (max-width: 1300px)
+{
+
+    body > main
+    {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .future-planes > ul > li
+    {
+        width: auto;
+    }
+}
+    
+
+
 
 
 
